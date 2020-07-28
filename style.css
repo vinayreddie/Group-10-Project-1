@@ -1,0 +1,36 @@
+h1 {
+    font-family: fantasy;
+    font-size: large;
+    color: rgb(48, 45, 45);
+}
+
+.amandeep {
+    max-width: 400px;
+    margin: auto;
+    margin-top: 12%;
+    background-color: grey;
+    padding: 20px;
+}
+
+.amandeep input[type=email],
+input[type=password] {
+    width: 95%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+.amandeep input[type=submit] {
+    margin: 8px 0;
+    background-color: floralwhite;
+    padding: 10px 15px;
+    width: 30%;
+}
+
+.amandeep label {
+    padding: 100;
+    color: black;
+}
+
+.amandeep h1 {
+    text-align: center;
+}
