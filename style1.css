@@ -1,0 +1,37 @@
+.amanda h1 {
+    font-family: fantasy;
+    font-size: large;
+    color: black;
+}
+
+.amanda h1 {
+    text-align: center;
+}
+
+.amanda input[type=email],
+input[type=password],
+input[type=text],
+input[type=date] {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+.amanda {
+    margin: auto;
+    max-width: 700px;
+}
+
+.amanda {
+    max-width: 400px;
+    margin: auto;
+    margin-top: 12%;
+    background-color: grey;
+    padding: 20px;
+}
+
+.amanda input[type=submit] {
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
