@@ -88,7 +88,7 @@
             <input type="radio" name="greet" value="3">Excellent
             <br>
             <p input placeholder="survey..." oninput="this.className = ''" name="fname"></p>
-            <h2> How was your service experience?</h2>
+            <h2> How was staff</h2>
             </p>
             <input type="radio" name="greet" value="0"> Dissatisfied
             <input type="radio" name="greet" value="1"> Average
@@ -98,37 +98,98 @@
 
         </div>
         <div class="tab">
-            <h2>Accuracy of your order</h2>
+            <p class="q1">
+                <h2>Would You Like to recommend to your Friends/Family</h2>
             </p>
-            <input type="radio" name="greet" value="0"> Dissatisfied
-            <input type="radio" name="greet" value="1"> Average
-            <input type="radio" name="greet" value="2">Good
-            <input type="radio" name="greet" value="3">Excellent
+            <select id="dropdown" name="role" class="form-control" required>
+    <option disabled selected value>Select From dropdown</option>
+    <option value="yes">Obviously</option>
+    <option value="no">Not Right Now</option>
+    
+  </select>
+
+            <p>
+                <h2> What would you like to see improved? (Check all that apply)</h2>
+            </p>
+
+            <label>
+        <input
+          name="improve"
+        
+          type="checkbox"
+          class="input-checkbox"
+        />Ambience</label>
+
+            <label>
+            <input
+              name="improve"
+            
+              type="checkbox"
+              class="input-checkbox"
+            />Hospitality</label>
 
 
-            <h2> Speed of Service</h2>
+            <label>
+                <input
+                  name="improve"
+                
+                  type="checkbox"
+                  class="input-checkbox"
+                />More Items in Menu</label>
+
+
+            <label>
+                    <input
+                      name="improve"
+                    
+                      type="checkbox"
+                      class="input-checkbox"
+                    />Faster Service</label>
+
+
+            <label>
+                        <input
+                          name="improve"
+                        
+                          type="checkbox"
+                          class="input-checkbox"
+                        />Value For Money</label>
+
+
+            <label>
+        <input
+          name="prefer"
+          value="additional-courses"
+          type="checkbox"
+          class="input-checkbox"
+        />Other</label>
+
+
+
+
+            <h2>Have you suffered with any allergies or food poisoning after you visited us></h2>
             </p>
-            <input type="radio" name="greet" value="0"> Dissatisfied
-            <input type="radio" name="greet" value="1"> Average
-            <input type="radio" name="greet" value="2">Good
-            <input type="radio" name="greet" value="3">Excellent
+            <input type="radio" name="greet" value="0"> Yes
+            <input type="radio" name="greet" value="1"> No
+            <input type="radio" name="greet" value="2">Not Sure
+
             <br>
 
-            <h2> Value For Money</h2>
-            </p>
-            <input type="radio" name="greet" value="0"> Dissatisfied
-            <input type="radio" name="greet" value="1"> Average
-            <input type="radio" name="greet" value="2">Good
-            <input type="radio" name="greet" value="3">Excellent
-            <br>
+            <h2>Overall Rating </h2>
+            <div class="rate">
+                <input type="radio" id="star5" name="rate" value="5" />
+                <label for="star5" title="text">5 stars</label>
+                <input type="radio" id="star4" name="rate" value="4" />
+                <label for="star4" title="text">4 stars</label>
+                <input type="radio" id="star3" name="rate" value="3" />
+                <label for="star3" title="text">3 stars</label>
+                <input type="radio" id="star2" name="rate" value="2" />
+                <label for="star2" title="text">2 stars</label>
+                <input type="radio" id="star1" name="rate" value="1" />
+                <label for="star1" title="text">1 star</label>
+            </div>
 
-            <h2> Product Versitility</h2>
-            </p>
-            <input type="radio" name="greet" value="0"> Dissatisfied
-            <input type="radio" name="greet" value="1"> Average
-            <input type="radio" name="greet" value="2">Good
-            <input type="radio" name="greet" value="3">Excellent
-            <br>
+            <br></br>
             <p input placeholder="survey..." oninput="this.className = ''" name="fname"></p>
             <h2> How was your service experience?</h2>
             </p>
