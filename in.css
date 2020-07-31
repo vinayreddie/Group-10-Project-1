@@ -1,0 +1,280 @@
+/* Reference:  freewebsitetemplates.com */
+
+body {
+    color: #80662b;
+    font-size: 14px;
+    margin: 0;
+    min-width: 950px;
+    padding: 0;
+}
+
+a {
+    outline: none;
+}
+
+#header {
+    height: 106px;
+    overflow: hidden;
+    width: 100%;
+}
+
+#header div {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 950px;
+}
+
+#header div div#logo {
+    float: left;
+    width: auto;
+    margin: 0 55px 0 0;
+}
+
+#header div div#navigation {
+    font-family: 'CarterOneRegular';
+    float: right;
+    height: auto;
+    line-height: 50px;
+    margin-top: 27px;
+    text-transform: lowercase;
+    width: 614px;
+}
+
+#header div div#navigation div ul {
+    clear: both;
+    float: left;
+    height: 63px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    min-width: 600px;
+}
+
+#header div div#navigation div ul li {
+    float: left;
+    padding: 0 30px;
+}
+
+#header div div#navigation div ul li a {
+    color: #b99b5f;
+    text-decoration: none;
+    text-shadow: 1px 1px 0 #efd9c4;
+}
+
+#header div div#navigation div ul li.current a,
+#header div div#navigation div ul li a:hover {
+    color: #2e5306;
+    text-shadow: 1px 1px 0 #f2fcd9;
+}
+
+#content div#section div,
+#content div.section div {
+    background: none;
+    float: left;
+    margin-left: 0;
+    padding-top: 0;
+    width: 286px;
+}
+
+#content div#section div span a.first {
+    margin-left: 0;
+}
+
+#content div#section div#figure {
+    margin-left: 51px;
+    width: 612px;
+}
+
+#content div#section div#figure img,
+#content div div img,
+#content div#featured ul li img {
+    border: 3px solid #fff;
+}
+
+#content div#section div#figure span {
+    background: url(../images/bg-headliner-image-shadow.jpg) no-repeat center;
+    display: block;
+    height: 13px;
+    margin-top: -6px;
+    width: 612px;
+}
+
+#content div#featured ul li p a {
+    color: #525252;
+}
+
+#content div#section span.background {
+    background: url(../images/bg-headliner-bottom-shadow.jpg) no-repeat center;
+    top: 328px;
+    display: block;
+    height: 37px;
+    position: relative;
+    width: 950px;
+}
+
+#content div#featured {
+    background: url(../images/bg-featured.gif) repeat-x top center;
+    height: 356px;
+    padding: 35px 0;
+    width: 100%;
+}
+
+#content div#featured ul {
+    color: #525252;
+    list-style: none;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+    width: 950px;
+}
+
+#content div#featured ul li {
+    float: left;
+    margin-left: 53px;
+    width: 281px;
+}
+
+#content div#featured ul li.first {
+    margin-left: 0;
+}
+
+#content div#featured ul li span {
+    background: url(../images/bg-featured.jpg) no-repeat center;
+    display: block;
+    height: 15px;
+    margin-top: -6px;
+    width: 281px;
+}
+
+#content div#featured ul li a.link {
+    background: url(../images/sprites-buttons.gif) no-repeat 0 -166px;
+    color: #FDFDFB;
+    display: block;
+    height: 43px;
+    font-family: 'CarterOneRegular';
+    font-size: 16px;
+    line-height: 43px;
+    margin-top: 25px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 1px 1px 0 #216B20;
+    width: 281px;
+}
+
+#content div#featured ul li p {
+    line-height: 21px;
+    margin-top: 15px;
+    padding-bottom: 5px;
+    text-align: left;
+    text-shadow: 1px 1px 0 #e8e6e7;
+}
+
+#content div {
+    margin: 0 auto;
+    padding: 0 0 40px;
+    width: 950px;
+}
+
+#footer {
+    background: url(../images/bg-footer.gif) repeat-x left top;
+    height: 510px;
+    width: 100%;
+}
+
+#footer div {
+    color: #dadada;
+    float: none;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-top: 10px;
+    width: 950px;
+}
+
+#footer div div {
+    float: left;
+    height: auto;
+    margin-left: 46px;
+    width: 286px;
+}
+
+#footer div div.first {
+    margin-left: 0;
+}
+
+#footer div div p {
+    font-size: 12px;
+    line-height: 18px;
+    margin: 0;
+    text-align: left;
+}
+
+#footer div div h3 {
+    color: #fcfcfc;
+    font-family: 'CarterOneRegular';
+    font-size: 20px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+#footer div div h3 a {
+    background: url(../images/logo-footer.gif) no-repeat;
+    display: block;
+    height: 30px;
+    text-indent: -99999px;
+}
+
+#footer div div div {
+    height: auto;
+    margin-left: 0;
+    margin-top: 10px;
+}
+
+#footer div div div p {
+    font-size: 14px;
+    line-height: 25px;
+    margin: 0;
+}
+
+#footer div div div p span {
+    color: #383435;
+    display: inline;
+    font-style: italic;
+}
+
+#footer div div div a {
+    display: inline-block;
+    height: 63px;
+    margin-left: 44px;
+    padding-top: 10px;
+    width: 63px;
+}
+
+#footer div div div a.facebook {
+    background: url(../images/sprites-icon.gif) no-repeat 0 9px;
+    margin-left: 0;
+}
+
+#footer div div div a.twitter {
+    background: url(../images/sprites-icon.gif) no-repeat 0 -137px;
+}
+
+#footer div div div a.linked-in {
+    background: url(../images/sprites-icon.gif) no-repeat 0 -63px;
+}
+
+#footer div div form {
+    height: 40px;
+    margin-top: 25px;
+    overflow: hidden;
+}
+
+#footer div div form label {
+    float: left;
+}
+
+.footer {
+    background-color: #37383a;
+    color: #fefefe;
+    text-align: center;
+}
