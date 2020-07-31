@@ -1,223 +1,254 @@
-    body {
-    background-color: lightblue;
-    font-family: Helvetica;
-}
-
-#main {
-    width: 80%;
-    max-width: 950px;
-    border: 1px gray solid;
-    margin: auto;
-    padding: 10px;
-    background-color: white;
-    border-radius: 10px;
-}
-
-#header {
-    margin-top: 0;
-    border: 2px solid black;
-    padding: 5px;
-    height: 75px;
-    background: rgb(12, 196, 150);
-    color: white;
-}
-
-label {
-    display: block;
-}
-
-input {
-    width: 30px;
-    margin-left: 20px;
-}
-
-h2 {
-    clear: both;
-    padding-top: 20px;
-}
-
-button {
-    width: 100px;
-    margin-top: 20px;
-}
-
-
-/* Hide all steps by default: */
-
-.tab {
-    display: none;
-}
-
-button {
-    background-color: slategrey;
-    color: #ffffff;
-    border: none;
-    padding: 10px 20px;
-    font-size: 17px;
-    font-family: Raleway;
-    cursor: pointer;
-}
-
-button:hover {
-    opacity: 0.8;
-}
-
-#prevBtn {
-    background-color: #bbbbbb;
-}
-
-
-/* Make circles that indicate the steps of the form: */
-
-.step {
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbbbbb;
-    border: none;
-    border-radius: 50%;
-    display: inline-block;
-    opacity: 0.5;
-}
-
-.step.active {
-    opacity: 1;
-}
-
-
-/* Mark the steps that are finished and valid: */
-
-.step.finish {
-    background-color: #4CAF50;
-}
-
-@import url('https://fonts.googleapis.com/css?family=Fredoka+One');
-body {
-    font-family: 'Fredoka One', cursive;
-    background-color: #b5e1f0;
-}
-
-.container {
-    background-color: lightblue;
-    width: 70%;
-    border: 2px solid darkturquoise;
-    margin: 50px auto;
-    overflow: hidden;
-}
-
-#title {
-    padding: 30px 20px 30px 20px;
-    background-color: darkturquoise;
-    color: white;
-    font-size: 20px;
-}
-
-h1 {
-    margin: -1px auto;
-}
-
-#description {
-    color: black;
-    margin: auto;
-    padding: 10px;
-    text-align: center;
-}
-
-#survey-form {
-    padding: 20px;
-}
-
-.input-field {
-    height: 40px;
-    width: 50%;
-    padding: 5px;
-    margin: 10px;
-    border: 1px solid #c0c0c0;
-    border-radius: 2px;
-}
-
-#comments {
-    width: 50%;
-    height: 100px;
-    margin: 0;
-}
-
-.q1 {
-    width: 100%;
-}
-
-#submit {
-    background-color: #00ced1;
-    border-radius: 5px;
-    color: white;
-    font-size: 1em;
-    width: 100px;
-    height: 40px;
-    margin: 25px auto;
-    border: 1px solid white;
-}
-
-#submit:active {
-    color: black;
-    border-color: #00e;
-}
-
-footer {
-    margin: auto;
-    padding: 0px 0px 0px 25em;
-}
-
-a {
-    text-decoration: none;
-}
-
-
-/****************************
+      #main {
+          width: 80%;
+          max-width: 950px;
+          border: 1px gray solid;
+          margin: auto;
+          padding: 10px;
+          background-color: white;
+          border-radius: 10px;
+      }
+      
+      #header {
+          margin-top: 0;
+          border: 2px solid black;
+          padding: 5px;
+          height: 85px;
+          background: rgb(12, 196, 150);
+          color: white;
+      }
+      
+      label {
+          display: block;
+      }
+      
+      input {
+          width: 30px;
+          margin-left: 20px;
+      }
+      
+      h2 {
+          clear: both;
+          padding-top: 20px;
+      }
+      
+      button {
+          width: 100px;
+          margin-top: 20px;
+      }
+      /* Hide all steps by default: */
+      
+      .tab {
+          display: none;
+      }
+      
+      button {
+          background-color: slategrey;
+          color: #ffffff;
+          border: none;
+          padding: 10px 20px;
+          font-size: 17px;
+          font-family: Raleway;
+          cursor: pointer;
+      }
+      
+      button:hover {
+          opacity: 0.8;
+      }
+      
+      #prevBtn {
+          background-color: #bbbbbb;
+      }
+      /* Make circles that indicate the steps of the form: */
+      
+      .step {
+          height: 15px;
+          width: 15px;
+          margin: 0 2px;
+          background-color: #bbbbbb;
+          border: none;
+          border-radius: 50%;
+          display: inline-block;
+          opacity: 0.5;
+      }
+      
+      .step.active {
+          opacity: 1;
+      }
+      /* Mark the steps that are finished and valid: */
+      
+      .step.finish {
+          background-color: #4CAF50;
+      }
+      
+      @import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+      body {
+          font-family: 'Fredoka One', cursive;
+          background-color: sandybrown;
+      }
+      
+      .container {
+          background-color: lightblue;
+          width: 70%;
+          border: 2px solid darkturquoise;
+          margin: 50px auto;
+          overflow: hidden;
+      }
+      
+      #title {
+          padding: 30px 20px 30px 20px;
+          background-color: darkturquoise;
+          color: white;
+          font-size: 20px;
+      }
+      
+      h1 {
+          margin: -1px auto;
+      }
+      
+      #description {
+          color: black;
+          margin: auto;
+          padding: 10px;
+          text-align: center;
+      }
+      
+      #survey-form {
+          padding: 20px;
+      }
+      
+      .input-field {
+          height: 40px;
+          width: 50%;
+          padding: 5px;
+          margin: 10px;
+          border: 1px solid #c0c0c0;
+          border-radius: 2px;
+      }
+      
+      #comments {
+          width: 50%;
+          height: 100px;
+          margin: 0;
+      }
+      
+      .q1 {
+          width: 100%;
+      }
+      
+      #submit {
+          background-color: #00ced1;
+          border-radius: 5px;
+          color: white;
+          font-size: 1em;
+          width: 100px;
+          height: 40px;
+          margin: 25px auto;
+          border: 1px solid white;
+      }
+      
+      #submit:active {
+          color: black;
+          border-color: #00e;
+      }
+      
+      footer {
+          margin: auto;
+          padding: 0px 0px 0px 25em;
+      }
+      
+      a {
+          text-decoration: none;
+      }
+      /****************************
 Media Queries
 ****************************/
-
-@media ( max-width: 768px) {
-    .container {
-        width: 90%
-    }
-    .radio_button {
-        display: block;
-        margin-bottom: 10px;
-        width: 100%;
-    }
-    #comments {
-        width: 70%;
-    }
-    .footer {
-        padding: 0px 0px 0px 24em;
-    }
-}
-
-@media (max-width: 590px) {
-    .container {
-        width: 96%;
-    }
-    #comments {
-        width: 60%;
-    }
-    #survey-form {
-        width: 100%;
-    }
-    .footer {
-        padding: 0px 0px 0px 11em;
-    }
-    @media (max-width: 490px) {
-        /*apple iphone 6s 6plus */
-        .input-field {
-            width: 60%;
-        }
-        #comments {
-            width: 60%;
-        }
-        #survey-form {
-            width: 100%;
-        }
-        .footer {
-            padding: 0px 0px 0px 9em;
-        }
-    }
+      
+      @media ( max-width: 768px) {
+          .container {
+              width: 90%
+          }
+          .radio_button {
+              display: block;
+              margin-bottom: 10px;
+              width: 100%;
+          }
+          #comments {
+              width: 70%;
+          }
+          .footer {
+              padding: 0px 0px 0px 24em;
+          }
+      }
+      
+      @media (max-width: 590px) {
+          .container {
+              width: 96%;
+          }
+          #comments {
+              width: 60%;
+          }
+          #survey-form {
+              width: 100%;
+          }
+          .footer {
+              padding: 0px 0px 0px 11em;
+          }
+          @media (max-width: 490px) {
+              /*apple iphone 6s 6plus */
+              .input-field {
+                  width: 60%;
+              }
+              #comments {
+                  width: 60%;
+              }
+              #survey-form {
+                  width: 100%;
+              }
+              .footer {
+                  padding: 0px 0px 0px 9em;
+              }
+          }
+      }
+      
+      .rate {
+          float: left;
+          height: 46px;
+          padding: 0 10px;
+      }
+      
+      .rate:not(:checked)>input {
+          position: absolute;
+          top: -9999px;
+      }
+      
+      .rate:not(:checked)>label {
+          float: right;
+          width: 1em;
+          overflow: hidden;
+          white-space: nowrap;
+          cursor: pointer;
+          font-size: 30px;
+          color: #ccc;
+      }
+      
+      .rate:not(:checked)>label:before {
+          content: '★ ';
+      }
+      
+      .rate>input:checked~label {
+          color: #ffc700;
+      }
+      
+      .rate:not(:checked)>label:hover,
+      .rate:not(:checked)>label:hover~label {
+          color: #deb217;
+      }
+      
+      .rate>input:checked+label:hover,
+      .rate>input:checked+label:hover~label,
+      .rate>input:checked~label:hover,
+      .rate>input:checked~label:hover~label,
+      .rate>label:hover~input:checked~label {
+          color: #c59b08;
+      }
+      /* Modified from: https://github.com/mukulkant/Star-rating-using-pure-css */
