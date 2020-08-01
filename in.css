@@ -92,7 +92,6 @@ a {
 }
 
 #content div#section div#figure span {
-    background: url(../images/bg-headliner-image-shadow.jpg) no-repeat center;
     display: block;
     height: 13px;
     margin-top: -6px;
@@ -104,7 +103,6 @@ a {
 }
 
 #content div#section span.background {
-    background: url(../images/bg-headliner-bottom-shadow.jpg) no-repeat center;
     top: 328px;
     display: block;
     height: 37px;
@@ -113,7 +111,6 @@ a {
 }
 
 #content div#featured {
-    background: url(../images/bg-featured.gif) repeat-x top center;
     height: 356px;
     padding: 35px 0;
     width: 100%;
@@ -139,7 +136,6 @@ a {
 }
 
 #content div#featured ul li span {
-    background: url(../images/bg-featured.jpg) no-repeat center;
     display: block;
     height: 15px;
     margin-top: -6px;
@@ -147,7 +143,6 @@ a {
 }
 
 #content div#featured ul li a.link {
-    background: url(../images/sprites-buttons.gif) no-repeat 0 -166px;
     color: #FDFDFB;
     display: block;
     height: 43px;
@@ -176,7 +171,6 @@ a {
 }
 
 #footer {
-    background: url(../images/bg-footer.gif) repeat-x left top;
     height: 510px;
     width: 100%;
 }
@@ -218,7 +212,6 @@ a {
 }
 
 #footer div div h3 a {
-    background: url(../images/logo-footer.gif) no-repeat;
     display: block;
     height: 30px;
     text-indent: -99999px;
@@ -240,37 +233,6 @@ a {
     color: #383435;
     display: inline;
     font-style: italic;
-}
-
-#footer div div div a {
-    display: inline-block;
-    height: 63px;
-    margin-left: 44px;
-    padding-top: 10px;
-    width: 63px;
-}
-
-#footer div div div a.facebook {
-    background: url(../images/sprites-icon.gif) no-repeat 0 9px;
-    margin-left: 0;
-}
-
-#footer div div div a.twitter {
-    background: url(../images/sprites-icon.gif) no-repeat 0 -137px;
-}
-
-#footer div div div a.linked-in {
-    background: url(../images/sprites-icon.gif) no-repeat 0 -63px;
-}
-
-#footer div div form {
-    height: 40px;
-    margin-top: 25px;
-    overflow: hidden;
-}
-
-#footer div div form label {
-    float: left;
 }
 
 .footer {
